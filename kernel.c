@@ -6,7 +6,7 @@
 
 
 #define WHITE_TXT 0x07 /* light gray on black text */
-#include <cpython/Include/Python.h>
+#include <./cpython/Include/Python.h>
 
 void k_clear_screen();
 unsigned int k_printf(char *message, unsigned int line);
@@ -22,7 +22,7 @@ void k_main()
 	// Start loading SCL
 	char * buffer = 0;
 	long length;
-	FILE * f = fopen ("SCL/SCL.py", "rb");
+	FILE * f = fopen ("./SCL/SCL.py", "rb");
 	
 	if (f)
 	{
