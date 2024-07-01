@@ -8,6 +8,7 @@
 #define WHITE_TXT 0x07 /* light gray on black text */
 #include <Python.h>
 
+
 void k_clear_screen();
 unsigned int k_printf(char *message, unsigned int line);
 
