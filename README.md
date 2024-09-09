@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This project was archived. Adding a full Python support for an OS from scratch is a hard one, so i decided to create a lightweight Linux distribution.
+
 # SCL OS
 (Experimental) SCL in an OS
 
